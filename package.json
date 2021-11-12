@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "node-sass":"node-sass",
+    "node-sass": "node-sass",
     "sass": "node-sass -wr styles/main.scss style.css"
   },
   "repository": {
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/kyongs/tomorrow-house#readme",
   "dependencies": {
-    "node-sass": "^6.0.0"
+    "node-sass": "^6.0.1"
   }
 }
