@@ -381,3 +381,25 @@ html {
 
 body {
   font-family: 'Noto Sans KR', sans-serif; }
+
+h1 {
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+button,
+input,
+textarea,
+select {
+  background-color: transparent;
+  border: 0; }
+  button:focus,
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+    box-shadow: none; }
+
+/*# sourceMappingURL=style.css.map */
