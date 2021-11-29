@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'tomorrow';
   src: url("./assets/fonts/tomorrow.eot");
@@ -406,6 +407,7 @@ select {
     outline: none;
     box-shadow: none; }
 
+/*prefix flex-를 일일이 치기 귀찮기 때문에 만듦*/
 /*
 * MOBILE (<768px) -------------------------------
 * fixture                         sm
