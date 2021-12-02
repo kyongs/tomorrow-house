@@ -408,6 +408,30 @@ select {
     box-shadow: none; }
 
 /*prefix flex-를 일일이 치기 귀찮기 때문에 만듦*/
+.tag-red, .tag-green, .tag-gray {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  height: 20px;
+  padding: 0 6px;
+  font-weight: 700;
+  border-radius: 4px; }
+
+.tag-red {
+  color: #ffffff;
+  background-color: #f86d7d; }
+
+.tag-green {
+  color: #ffffff;
+  background-color: #22c58b; }
+
+.tag-gray {
+  color: #8c8d96;
+  background-color: #e0e2e7; }
+
 /*
 * MOBILE (<768px) -------------------------------
 * fixture                         sm
