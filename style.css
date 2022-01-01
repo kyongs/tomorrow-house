@@ -598,6 +598,31 @@ select {
   letter-spacing: -0.02em;
   height: 55px; }
 
+select,
+input {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #3f4150;
+  display: block;
+  height: 40px;
+  width: 100%;
+  padding: 0 16px;
+  border: 1px solid #e0e2e7;
+  border-radius: 4px;
+  background-color: white;
+  appearance: none; }
+  select::placeholder,
+  input::placeholder {
+    color: #b2b3b9; }
+  select:not(:disabled):hover,
+  input:not(:disabled):hover {
+    background-color: #f7f8fa; }
+  select:disabled,
+  input:disabled {
+    cursor: not-allowed;
+    opacity: 0.4; }
+
 /*
 * MOBILE (<768px) -------------------------------
 * fixture                         sm
